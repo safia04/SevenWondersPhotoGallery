@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Machu Picchu</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<style>
+    .image img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+    header{
+        background-image: url('img/h3.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    .left{
+        position: absolute;
+        left: 20px;
+        top: 75px;
+        font-size: 70px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .right{
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+    .navbar li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
+    .navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: rgb(138, 140, 151);
+    padding: 7px 8px;
+    }
+    .container{
+        position: relative;
+        margin: 0px 0px;
+        height: 800px;
+        width:100%;
+    }
+    .container h1{
+        font-size: 79px;
+        color: black;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn{
+    margin: 4px 4px;
+    padding: 4px 10px;
+    background-color: rgb(59, 187, 148);
+    color: rgb(66, 46, 59);
+    border: 2px solid rgb(82, 58, 58);
+    border-radius: 8px;
+    height: 75px;
+    width:200px;
+    font-size: 30px;
+    cursor: pointer;
+    }
+    .btn:hover{
+     background-color: rgba(213, 243, 43, 0.87);
+    }
+    #btn1{
+        position: absolute;
+        left: 40px;
+    }
+    #btn2{
+        position: absolute;
+        right: 40px;
+    }
+</style>
+<body>
+    <header>
+        <div class="left">
+            Machu Picchu
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Visiting Hours & Ticketing</a></li>
+                <li><a href="#">NightViewing</a></li>
+                <li><a href="#">Nearby Attraction</a></li>
+                <li><a href="#">Do's & Don'ts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+        <div class="image">
+            <img src="img/machu2.jpeg" alt="Machu Picchu">
+        </div>
+    <div class="container">
+        <h1>Machu Picchu</h1>
+        <p>Machu Picchu is a 15th-century Inca citadel, located in the Eastern Cordillera of southern Peru, on a 2,430-metre (7,970 ft) mountain ridge.It is located in the Machupicchu District within Urubamba Province above the Sacred Valley, which is 80 kilometres (50 mi) northwest of Cuzco. The Urubamba River flows past it, cutting through the Cordillera and creating a canyon with a tropical mountain climate.
+    
+            
+            Most archaeologists believe that Machu Picchu was constructed as an estate for the Inca emperor Pachacuti (1438–1472). Often mistakenly referred to as the "Lost City of the Incas", it is the most familiar icon of Inca civilization. The Incas built the estate around 1450 but abandoned it a century later at the time of the Spanish conquest. Although known locally, it was not known to the Spanish during the colonial period and remained unknown to the outside world until American historian Hiram Bingham brought it to international attention in 1911.
+            
+            Machu Picchu was built in the classical Inca style, with polished dry-stone walls. Its three primary structures are the Intihuatana, the Temple of the Sun, and the Room of the Three Windows. Most of the outlying buildings have been reconstructed in order to give tourists a better idea of how they originally appeared. By 1976, 30% of Machu Picchu had been restoredand restoration continues.
+            
+            Machu Picchu was declared a Peruvian Historic Sanctuary in 1981 and a UNESCO World Heritage Site in 1983.In 2007, Machu Picchu was voted one of the New Seven Wonders of the World in a worldwide internet poll.</p>
+        <button class="btn" id="btn1" onclick="document.location='ChristTheRedeemer.html'">Previous</button> 
+        <button class="btn" id="btn2" onclick="document.location='ChichenItza.html'">Next</button> 
+
+    </div>
+</body>
+</html>
