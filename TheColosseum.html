@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>TheColosseum</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<style>
+    .image img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+    header{
+        background-image: url('img/h6.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    .left{
+        position: absolute;
+        left: 20px;
+        top: 75px;
+        color: antiquewhite;
+        font-size: 70px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .right{
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+    .navbar li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
+    .navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: rgb(138, 140, 151);
+    padding: 7px 8px;
+    }
+    .container{
+        position: relative;
+        margin: 0px 0px;
+        height: 1000px;
+        width:100%;
+    }
+    .container h1{
+        font-size: 79px;
+        color: black;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn{
+    margin: 4px 4px;
+    padding: 4px 10px;
+    background-color: rgb(59, 187, 148);
+    color: rgb(66, 46, 59);
+    border: 2px solid rgb(82, 58, 58);
+    border-radius: 8px;
+    height: 75px;
+    width:200px;
+    font-size: 30px;
+    cursor: pointer;
+    }
+    .btn:hover{
+     background-color: rgba(213, 243, 43, 0.87);
+    }
+    #btn1{
+        position: absolute;
+        left: 40px;
+    }
+    #btn2{
+        position: absolute;
+        right: 40px;
+    }
+</style>
+<body>
+    <header>
+        <div class="left">
+            The Colosseum
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Visiting Hours & Ticketing</a></li>
+                <li><a href="#">NightViewing</a></li>
+                <li><a href="#">Nearby Attraction</a></li>
+                <li><a href="#">Do's & Don'ts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+        <div class="image">
+            <img src="img/Colosseum2.jpeg" alt="The Colosseum">
+        </div>
+    <div class="container">
+        <h1>The Roman Colosseum</h1>
+        <p>The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).
+
+        The Colosseum is built of travertine limestone, tuff (volcanic rock), and brick-faced concrete. The Colosseum could hold an estimated 50,000 to 80,000 spectators at various points of its history over the centuries, having an average audience of some 65,000; it was used for gladiatorial contests and public spectacles such as mock sea battles (for only a short time as the hypogeum was soon filled in with mechanisms to support the other activities), animal hunts, executions, re-enactments of famous battles, and dramas based on Roman mythology. The building ceased to be used for entertainment in the early medieval era. It was later reused for such purposes as housing, workshops, quarters for a religious order, a fortress, a quarry, and a Christian shrine.
+        
+        Although substantially ruined because of earthquakes and stone-robbers (for spolia), the Colosseum is still an iconic symbol of Imperial Rome and was listed as one of the New7Wonders of the World.It is one of Rome's most popular tourist attractions and also has links to the Roman Catholic Church, as each Good Friday the Pope leads a torchlit "Way of the Cross" procession that starts in the area around the Colosseum.
+        
+        The Colosseum is also depicted on the Italian version of the five-cent euro coin.</p>
+        <button class="btn" id="btn1" onclick="document.location='ChichenItza.html'">Previous</button> 
+        <button class="btn" id="btn2" onclick="document.location='TajMahal.html'">Next</button> 
+
+    </div>
+</body>
+</html>

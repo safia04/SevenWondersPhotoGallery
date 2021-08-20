@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Chichen Itza</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<style>
+    .image img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+    header{
+        background-image: url('img/h4.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    .left{
+        position: absolute;
+        left: 20px;
+        top: 75px;
+        font-size: 70px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .right{
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+    .navbar li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
+    .navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: rgb(138, 140, 151);
+    padding: 7px 8px;
+    }
+    .container{
+        position: relative;
+        margin: 0px 0px;
+        height: 800px;
+        width:100%;
+    }
+    .container h1{
+        font-size: 79px;
+        color: black;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn{
+    margin: 4px 4px;
+    padding: 4px 10px;
+    background-color: rgb(59, 187, 148);
+    color: rgb(66, 46, 59);
+    border: 2px solid rgb(82, 58, 58);
+    border-radius: 8px;
+    height: 75px;
+    width:200px;
+    font-size: 30px;
+    cursor: pointer;
+    }
+    .btn:hover{
+     background-color: rgba(213, 243, 43, 0.87);
+    }
+    #btn1{
+        position: absolute;
+        left: 40px;
+    }
+    #btn2{
+        position: absolute;
+        right: 40px;
+    }
+</style>
+<body>
+    <header>
+        <div class="left">
+            Chichen Itza
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Visiting Hours & Ticketing</a></li>
+                <li><a href="#">NightViewing</a></li>
+                <li><a href="#">Nearby Attraction</a></li>
+                <li><a href="#">Do's & Don'ts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+        <div class="image">
+            <img src="img/chichen2.jpeg" alt="Chichen Itza">
+        </div>
+    <div class="container">
+        <h1>Chichen Itza</h1>
+        <p>Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archaeological site is located in Tinúm Municipality, Yucatán State, Mexico.
+
+            Chichen Itza was a major focal point in the Northern Maya Lowlands from the Late Classic (c. AD 600–900) through the Terminal Classic (c. AD 800–900) and into the early portion of the Postclassic period (c. AD 900–1200). The site exhibits a multitude of architectural styles, reminiscent of styles seen in central Mexico and of the Puuc and Chenes styles of the Northern Maya lowlands. The presence of central Mexican styles was once thought to have been representative of direct migration or even conquest from central Mexico, but most contemporary interpretations view the presence of these non-Maya styles more as the result of cultural diffusion.
+            
+            Chichen Itza was one of the largest Maya cities and it was likely to have been one of the mythical great cities, or Tollans, referred to in later Mesoamerican literature. The city may have had the most diverse population in the Maya world, a factor that could have contributed to the variety of architectural styles at the site.
+            
+            The ruins of Chichen Itza are federal property, and the site's stewardship is maintained by Mexico's Instituto Nacional de Antropología e Historia (National Institute of Anthropology and History). The land under the monuments had been privately owned until 29 March 2010, when it was purchased by the state of Yucatán.
+            
+            Chichen Itza is one of the most visited archaeological sites in Mexico with over 2.6 million tourists in 2017.</p>
+        <button class="btn" id="btn1" onclick="document.location='MachuPicchu.html'">Previous</button> 
+        <button class="btn" id="btn2" onclick="document.location='TheColosseum.html'">Next</button> 
+
+    </div>
+</body>
+</html>

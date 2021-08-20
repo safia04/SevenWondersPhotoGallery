@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>GreatWallOfChina</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<style>
+    .image img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+    header{
+        background-image: url('img/h6.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    .left{
+        position: absolute;
+        left: 20px;
+        top: 75px;
+        color: beige;
+        font-size: 70px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .right{
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+    .navbar li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
+    .navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: rgb(138, 140, 151);
+    padding: 7px 8px;
+    }
+    .container{
+        position: relative;
+        margin: 0px 0px;
+        height: 800px;
+        width:100%;
+    }
+    .container h1{
+        font-size: 79px;
+        color: black;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn{
+    margin: 4px 4px;
+    padding: 4px 10px;
+    background-color: rgb(59, 187, 148);
+    color: rgb(66, 46, 59);
+    border: 2px solid rgb(82, 58, 58);
+    border-radius: 8px;
+    height: 75px;
+    width:200px;
+    font-size: 30px;
+    cursor: pointer;
+    }
+    .btn:hover{
+     background-color: rgba(213, 243, 43, 0.87);
+    }
+    #btn1{
+        position: absolute;
+        left: 40px;
+    }
+    #btn2{
+        position: absolute;
+        right: 40px;
+    }
+</style>
+<body>
+    <header>
+        <div class="left">
+            Great Wall Of China
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Visiting Hours & Ticketing</a></li>
+                <li><a href="#">NightViewing</a></li>
+                <li><a href="#">Nearby Attraction</a></li>
+                <li><a href="#">Do's & Don'ts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+        <div class="image">
+            <img src="img/GreatWall.jpeg" alt="Great Wall Of China">
+        </div>
+    <div class="container">
+        <h1>Great Wall Of China</h1>
+        <p>The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng) is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC,  with selective stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains. Later on, many successive dynasties have built and maintained multiple stretches of border walls. The most well-known sections of the wall were built by the Ming dynasty (1368–1644).
+
+            Apart from defense, other purposes of the Great Wall have included border controls, allowing the imposition of duties on goods transported along the Silk Road, regulation or encouragement of trade and the control of immigration and emigration. Furthermore, the defensive characteristics of the Great Wall were enhanced by the construction of watchtowers, troop barracks, garrison stations, signaling capabilities through the means of smoke or fire, and the fact that the path of the Great Wall also served as a transportation corridor.
+            
+            The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Liaodong in the east to Lop Lake in the west, from the present-day Sino–Russian border in the north to Tao River (Taohe) in the south; along an arc that roughly delineates the edge of the Mongolian steppe; spanning over 20,000 km (12,000 mi) in total. Today, the defensive system of the Great Wall is generally recognized as one of the most impressive architectural feats in history.</p>
+        <button class="btn" id="btn1" onclick="document.location='Petra.html'">Previous</button> 
+
+    </div>
+</body>
+</html>

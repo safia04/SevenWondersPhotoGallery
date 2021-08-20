@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>ChristTheRedeemer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<style>
+    .image img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+    header{
+        background-image: url('img/h2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    .left{
+        position: absolute;
+        left: 20px;
+        top: 75px;
+        font-size: 70px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .right{
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+    .navbar li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
+    .navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: rgb(138, 140, 151);
+    padding: 7px 8px;
+    }
+    .container{
+        position: relative;
+        margin: 0px 0px;
+        height: 700px;
+        width:100%;
+    }
+    .container h1{
+        font-size: 79px;
+        color: black;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn{
+    margin: 4px 4px;
+    padding: 4px 10px;
+    background-color: rgb(59, 187, 148);
+    color: rgb(66, 46, 59);
+    border: 2px solid rgb(82, 58, 58);
+    border-radius: 8px;
+    height: 75px;
+    width:200px;
+    font-size: 30px;
+    cursor: pointer;
+    }
+    .btn:hover{
+     background-color: rgba(213, 243, 43, 0.87);
+    }
+    #btn2{
+        position: absolute;
+        right: 40px;
+    }
+</style>
+<body>
+    <header>
+        <div class="left">
+            Christ The Redeemer
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Visiting Hours & Ticketing</a></li>
+                <li><a href="#">NightViewing</a></li>
+                <li><a href="#">Nearby Attraction</a></li>
+                <li><a href="#">Do's & Don'ts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+        <div class="image">
+            <img src="img/Christ2.jpeg" alt="Christ the Redeemer">
+        </div>
+    <div class="container">
+        <h1>Christ The Redeemer</h1>
+        <p>Christ the Redeemer (Portuguese: Cristo Redentor, standard Brazilian Portuguese: [ˈkɾistu ʁedẽˈtoʁ], local pronunciation: [ˈkɾiɕtŭ̥ xe̞dẽˈtoɦ]) is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot. Romanian sculptor Gheorghe Leonida fashioned the face. Constructed between 1922 and 1931, the statue is 30 metres (98 ft) high, excluding its 8-metre (26 ft) pedestal. The arms stretch 28 metres (92 ft) wide.
+
+            The statue weighs 635 metric tons (625 long, 700 short tons), and is located at the peak of the 700-metre (2,300 ft) Corcovado mountain in the Tijuca Forest National Park overlooking the city of Rio de Janeiro. A symbol of Christianity across the world, the statue has also become a cultural icon of both Rio de Janeiro and Brazil, and is listed as one of the New Seven Wonders of the World. It is made of reinforced concrete and soapstone.</p>
+            <button class="btn" id="btn2" onclick="document.location='MachuPicchu.html'">Next</button> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<style>
+    .container{
+        width: 100%;
+        border: 2px solid black;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: center;
+        align-items: center;
+        align-items: stretch;
+        background-image: url('img/wood.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h3{
+        color: aliceblue;
+    }
+    .item{
+        border: 2px solid red;
+        margin: 50px;
+        width: 570px;
+        height: 570px;
+    }
+    #item1{
+        background-image: url('img/Christ.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #item2{
+        background-image: url('img/Machu.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #item3{
+        background-image: url('img/Chichen.jpeg');
+        background-size: cover;
+        background-position: center;                                  
+        background-repeat: no-repeat;
+    }
+    #item4{
+        background-image: url('img/Colosseum.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #item5{
+        background-image: url('img/TajMahal.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #item6{
+        background-image: url('img/Petra.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #item7{
+        background-image: url('img/GreatWall.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .btn{
+        color: rgb(21, 22, 22);
+        background-color: aliceblue;
+        padding: 4px,7px;
+        border:2px solid brown ;
+        margin: 500px auto;
+        display: block;
+        height: 70px;
+        width: 100%;
+        font-family: 'Permanent Marker', cursive;
+        cursor: pointer;
+        font-size: 35px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item" id="item1">
+            <button class="btn" onclick="document.location='ChristTheRedeemer.html'">Christ The Redeemer</button>
+        </div>
+        <div class="item" id="item2">
+            <button class="btn" onclick="document.location='MachuPicchu.html'">Machu Picchu</button>
+        </div>
+        <div class="item" id="item3">
+            <button class="btn" onclick="document.location='ChichenItza.html'">Chichen Itza</button>
+        </div>
+        <div class="item" id="item4">
+            <button class="btn" onclick="document.location='TheColosseum.html'">The Colosseum</button>
+        </div>
+        <div class="item" id="item5">
+            <button class="btn" onclick="document.location='TajMahal.html'">Taj Mahal</button>
+        </div>
+        <div class="item" id="item6">
+            <button class="btn" onclick="document.location='Petra.html'">Petra</button>
+        </div>
+        <div class="item" id="item7">
+            <button class="btn" onclick="document.location='GreatWallOfChina.html'">Great Wall Of China</button>
+        </div>
+    </div>
+</body>
+</html>
